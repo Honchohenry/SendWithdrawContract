@@ -31,6 +31,24 @@ contract sendWithdrawMoney {
 
 ..............................................................................................
 
+
+ // function withdrawALL() public {
+//     uint amount = getContractBalance();
+//     address payable to = payable(msg.sender);
+//     to.transfer(amount);
+//     balancedReceived -= amount;   // Subtract the withdrawn amount
+// }
+
+ // function withdrawToaddress(address payable to) public {
+//     uint amount = getContractBalance();
+//     to.transfer(amount);
+//     balancedReceived -= amount;
+// }
+
+
+
+...............................................................................................
+
 // SPDX-License-Identifier: GPL-3.0
 
 pragma solidity >=0.8.2 <0.9.0;
@@ -49,5 +67,7 @@ string public myString = "Hello World";
 }
 
 // send eth to update the string.
+
+.........................................................................
 
 
